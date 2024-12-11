@@ -1,3 +1,4 @@
+/*
 function hello(name) {  
   if(!name || name.trim() === "")
       {
@@ -10,3 +11,9 @@ function hello(name) {
   }
   
   console.log(hello('mItaLi'))
+  */
+
+  const hello = s =>
+     `Hello, ${s ? s[0].toUpperCase() + s.slice(1).toLowerCase()+"!" : 'World'}`
+  console.log(hello('')
+) 
