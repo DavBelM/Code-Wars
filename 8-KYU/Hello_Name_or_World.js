@@ -1,10 +1,8 @@
 function hello(name) {  
-  
-    if(!name || name.trim() === "")
+  if(!name || name.trim() === "")
       {
         name = 'World'
-      }
-    else
+      } else
       {
          name = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()
       }
