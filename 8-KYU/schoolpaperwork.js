@@ -6,3 +6,4 @@ function paperwork(n, m) {
     
   }
   console.log(paperwork(5, 2))
+  
